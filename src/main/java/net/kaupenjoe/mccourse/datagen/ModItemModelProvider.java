@@ -29,7 +29,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModBlocks.BLACK_OPAL_DOOR.asItem());
         basicItem(ModItems.METAL_DETECTOR.get());
-        basicItem(ModItems.DATA_TABLET.get());
+        // basicItem(ModItems.DATA_TABLET.get());
     }
 
     public void buttonItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
