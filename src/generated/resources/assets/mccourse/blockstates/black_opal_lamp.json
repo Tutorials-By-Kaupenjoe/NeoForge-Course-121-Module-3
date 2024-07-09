@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "mccourse:block/black_opal_lamp_off"
+    },
+    "clicked=true": {
+      "model": "mccourse:block/black_opal_lamp_on"
+    }
+  }
+}

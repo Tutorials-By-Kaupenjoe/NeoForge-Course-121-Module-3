@@ -1,4 +1,4 @@
-// 1.21	2024-06-26T20:23:15.0600039	Block States: mccourse
+// 1.21	2024-07-09T12:28:54.4754362	Block States: mccourse
 b548ddf1ba2ad5a2d24ac1505a095060da0f300b assets/mccourse/blockstates/black_opal_block.json
 d9ba7c55bae42b6d6fadaef16516e5e401e50636 assets/mccourse/blockstates/black_opal_button.json
 8011a7ad7f38c38738b4f0281d8f963e63e147b7 assets/mccourse/blockstates/black_opal_deepslate_ore.json
@@ -6,6 +6,7 @@ d9ba7c55bae42b6d6fadaef16516e5e401e50636 assets/mccourse/blockstates/black_opal_
 dee68e880aaabdd62b9c208cbc8bac6c73e83741 assets/mccourse/blockstates/black_opal_end_ore.json
 b4b55377f89a2d51fe9dc22258536f06630ba2ce assets/mccourse/blockstates/black_opal_fence.json
 4d97489a266bfcc50789134a981bc7934bedc6d5 assets/mccourse/blockstates/black_opal_fence_gate.json
+17b94b95e765e69c3dba36f90486d2a4b5c03ad7 assets/mccourse/blockstates/black_opal_lamp.json
 62df3ac75badaab1a8e87e8762d9268e20727d4e assets/mccourse/blockstates/black_opal_nether_ore.json
 29639e83133c22cffeb9dd6cc665b3815a74f2ec assets/mccourse/blockstates/black_opal_ore.json
 365f40da2cece158ffec0114fa99ec0fcb59620a assets/mccourse/blockstates/black_opal_pressure_plate.json
@@ -34,6 +35,8 @@ d356d83acdb8cd101b192be012d0cfd6638c61f5 assets/mccourse/models/block/black_opal
 ec32380a6e9d81cbfe7cf6622aeebb015f2dfb41 assets/mccourse/models/block/black_opal_fence_gate_wall_open.json
 3f257d90e0c8c312e7c593627d5ea6bd426a0590 assets/mccourse/models/block/black_opal_fence_post.json
 7e90238d2fc88897af6a41b2788e2a7d084be59d assets/mccourse/models/block/black_opal_fence_side.json
+b700284909c4467d9b2f66e2fde40788c3e30b64 assets/mccourse/models/block/black_opal_lamp_off.json
+e6410d8e08a7a357ed3743776ed606a874731774 assets/mccourse/models/block/black_opal_lamp_on.json
 2a5598e9b2754f2164c05c6a2495a167f4cd5e0c assets/mccourse/models/block/black_opal_nether_ore.json
 a63d67b037e80a0bb1b0a5742487434678f625cc assets/mccourse/models/block/black_opal_ore.json
 ade823345cafcf522e72ab0afefe834e21c01f72 assets/mccourse/models/block/black_opal_pressure_plate.json
@@ -55,6 +58,7 @@ e3bea00dd7e933deb59eaf492b010a1f8fdd914f assets/mccourse/models/block/magic_bloc
 453c92a815a8d8bae418983e76f5ba62350864d9 assets/mccourse/models/item/black_opal_deepslate_ore.json
 aa57c162b02dcc944bdffd94bfbeaa4a2bcfa499 assets/mccourse/models/item/black_opal_end_ore.json
 817b4b0f55275b016534ed05c91cb510af86c4c2 assets/mccourse/models/item/black_opal_fence_gate.json
+a9bd4902ea7c963e22408705eee424b77bf59259 assets/mccourse/models/item/black_opal_lamp.json
 bf216e482fe415b0580c56ccc332943e6dba0ba3 assets/mccourse/models/item/black_opal_nether_ore.json
 8373937307aea46b90ae008761eb5ec89ed06b21 assets/mccourse/models/item/black_opal_ore.json
 14a9fc3fb9666030bd7a53f179f821be94919b98 assets/mccourse/models/item/black_opal_pressure_plate.json
