@@ -31,6 +31,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR);
                         pOutput.accept(ModItems.DATA_TABLET);
 
+                        pOutput.accept(ModItems.KAUPEN_BOW);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =

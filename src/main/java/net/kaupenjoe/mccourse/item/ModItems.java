@@ -6,6 +6,7 @@ import net.kaupenjoe.mccourse.item.custom.DataTabletItem;
 import net.kaupenjoe.mccourse.item.custom.FuelItem;
 import net.kaupenjoe.mccourse.item.custom.MetalDetectorItem;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -40,6 +41,9 @@ public class ModItems {
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
     public static final DeferredItem<Item> DATA_TABLET = ITEMS.register("data_tablet",
             () -> new DataTabletItem(new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> KAUPEN_BOW = ITEMS.register("kaupen_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
 
 
     public static void register(IEventBus eventBus) {
