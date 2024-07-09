@@ -2,7 +2,9 @@ package net.kaupenjoe.mccourse.item;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.item.custom.ChainsawItem;
+import net.kaupenjoe.mccourse.item.custom.DataTabletItem;
 import net.kaupenjoe.mccourse.item.custom.FuelItem;
+import net.kaupenjoe.mccourse.item.custom.MetalDetectorItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -33,6 +35,11 @@ public class ModItems {
             }, new Item.Properties().food(ModFoodProperties.TOMATO));
     public static final DeferredItem<Item> FROSTFIRE_ICE =
             ITEMS.registerItem("frostfire_ice", properties -> new FuelItem(properties, 800), new Item.Properties());
+
+    public static final DeferredItem<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+    public static final DeferredItem<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            () -> new DataTabletItem(new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

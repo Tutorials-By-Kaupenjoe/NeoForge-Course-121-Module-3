@@ -28,6 +28,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TOMATO);
                         pOutput.accept(ModItems.FROSTFIRE_ICE);
 
+                        pOutput.accept(ModItems.METAL_DETECTOR);
+                        pOutput.accept(ModItems.DATA_TABLET);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =

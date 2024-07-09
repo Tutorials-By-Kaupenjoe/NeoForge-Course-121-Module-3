@@ -28,6 +28,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.BLACK_OPAL_WALL, ModBlocks.BLACK_OPAL_BLOCK);
 
         basicItem(ModBlocks.BLACK_OPAL_DOOR.asItem());
+        basicItem(ModItems.METAL_DETECTOR.get());
+        basicItem(ModItems.DATA_TABLET.get());
     }
 
     public void buttonItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
